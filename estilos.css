@@ -22,6 +22,7 @@
 .navbar-light .navbar-nav .nav-link.active{
 	color: #847fd8;
 }
+
 #body{
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -29,6 +30,33 @@
 #principal .principal-text{
 	padding: 200px 20px;
 	}
+@media (max-width: 768px){
+.principal-img{
+	display: none;
+}
+#principal .principal-text{
+	padding: 100px 50px 20px 20px;
+}
+h1{
+	font-size: 32px!important;
+    line-height: 40px!important;
+}
+.parrafoTexto{
+	font-size: 14px!important;
+	line-height: 20px!important;
+}
+.titulo{
+	font-size: 28px!important;
+}
+#contacto{
+	padding: 0!important;
+	margin: 100px 0 0 0!important;
+}
+.servicios-text{
+	padding: 50px!important;
+}
+}
+
 h1{
  	color: #000000;
  	font-weight: 700;
@@ -42,13 +70,14 @@ h1{
 	line-height: 24px;
 	color: #191919;
 }
-a.boton {
+.boton {
 background-color:#dc76a0;
 padding: 20px 25px;
 border-radius: 6px;
 text-decoration: none;
 color: #ffffff;
 font-size: 16px;
+border: none;
 }
 @media (min-width: 992px)
 .order-lg-2 {
@@ -136,7 +165,7 @@ font-size: 16px;
 	background-image: url(img/equipo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 600px;
+    min-height: 400px;
     background-size: cover;
 }
 #equipo .caja{
@@ -157,4 +186,81 @@ font-size: 16px;
 }
 #portfolio .trabajos:hover{
 	background: #003166;
+}
+.marcas{
+	background-color: #edecf9;
+	width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 90px;
+    padding-top: 80px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.blog .carousel-indicators{
+	left: 0;
+    top: auto;
+    bottom: -50px;
+}
+#clientes{
+padding-top: 80px;
+}
+#inspiracional{
+	min-height: 250px;
+	margin-top: 80px;
+	padding-top: 90px;
+}
+#equipo{
+	padding-top: 30px;
+}
+.inspiracional{
+	font-weight: 700;
+	font-size: 48px;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+}
+.carousel-indicators{
+	left: 0;
+    top: auto;
+    bottom: -50px;
+}
+.carousel-indicators li{
+	background: #a3a3a3;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #847fd8;
+    border: 1px solid #847fd8;
+}
+#contacto{
+    margin: 120px 300px 120px 300px;
+    padding: 40px;
+}
+#contacto .contactForm button[type="submit"] {
+	background-color: #dc76a0;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+}
+#portfolio .muestra .caja:hover{
+	background-color: black;
+}
+#portfolio .muestra .caja:hover img{
+	opacity: 0.4;
+    transition: 0.3s;
+}
+
+.boton:hover, #contacto .contactForm button[type="submit"]:hover {
+    background-color: #cd6e95;
+}
+.cardServicios:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(127 137 161 / 30%);
+    transition: 0.3s;
 }
