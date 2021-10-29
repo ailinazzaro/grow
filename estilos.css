@@ -31,6 +31,11 @@
 	padding: 200px 20px;
 	}
 @media (max-width: 768px){
+.logo{
+	justify-content: center;
+    display: flex;
+    margin: 10px;
+}
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 10px 0px;
 }
@@ -329,3 +334,4 @@ padding-top: 80px;
 	justify-content: center;
     display: flex;
 }
+
