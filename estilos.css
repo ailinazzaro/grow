@@ -169,6 +169,7 @@ border: none;
 #footer .subtitulo {
 	color: white;
 	font-size: 14px;
+	font-weight: 600;
 }
 #footer .parrafoTexto {
 	color: white;
@@ -196,7 +197,7 @@ border: none;
 	background-image: url(img/equipo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 400px;
+    min-height: 450px;
     background-size: cover;
 }
 #equipo .caja{
@@ -320,7 +321,7 @@ padding-top: 80px;
     display: flex;
 }
 .servicios-img img:hover{
-    transform: scale(1.02);
+    transform: scale(1.05);
     transition: 0.3s;
 }
 .trabajos-info .frase {
