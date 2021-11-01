@@ -86,7 +86,7 @@ border: none;
 }
 #footer{
   background-color: $violeta;
-  padding: 80px 0px;
+  padding: 80px 0px 20px 0px;
   margin-top: 40px;
   .subtitulo {
     color: white;
@@ -98,14 +98,14 @@ border: none;
     font-size: $normalText;
   }
   .newsletter input[type="submit"] {
-      background: $violeta;
-      border: solid white 1.5px;
-      border-radius: 0px 6px 6px 0px;
-      width: 50%;
-      text-align: center;
-      color: #fff;
-      height: 44px;
-      font-size: $normalText;
+    background: $violeta;
+    border: solid white 1.5px;
+    border-radius: 0px 6px 6px 0px;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    height: 44px;
+    font-size: $normalText;
   }
   .newsletter input[type="email"] {
     border: 0;
@@ -113,13 +113,18 @@ border: none;
     width: 50%;
     height: 44px;
     border-radius: 6px 0px 0px 6px;
-  font-size: $normalText;
+    font-size: $normalText;
+  }
+  .copy{
+    padding-top: 30px;
+    color: white;
+    font-size: 12px;
   }
 }
 #ofrecemos{
   margin-top: $marginTop;
   .subtitulo{
-  font-size: 24px;
+  font-size: 24px!important;
   }
   .bannerDiseno{
   background-color:$rosa;

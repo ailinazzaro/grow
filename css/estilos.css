@@ -99,7 +99,7 @@ h1 {
 
 #footer {
   background-color: #847fd8;
-  padding: 80px 0px;
+  padding: 80px 0px 20px 0px;
   margin-top: 40px;
 }
 
@@ -132,6 +132,11 @@ h1 {
   height: 44px;
   border-radius: 6px 0px 0px 6px;
   font-size: 14px;
+}
+#footer .copy{
+  padding-top: 30px;
+  color: white;
+  font-size: 12px;
 }
 
 #ofrecemos {
