@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;800;900&display=swap");
+#header {
+  min-height: 80px;
+  background: #ffffff;
+  z-index: 111111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 0px 10px #e9ecef;
+}
+
+#header .navbar-brand img {
+  padding: 0;
+  max-height: 32px;
+}
+
+#body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+#principal .principal-text {
+  padding: 200px 20px;
+}
+
+.mobile.img-fuid {
+  margin-top: 80px;
+}
+
+.mobile {
+  margin-top: 80px;
+}
+
+h1 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 42px;
+  font-family: "Poppins", sans-serif;
+  line-height: 50px;
+}
+
+.parrafoTexto {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #191919;
+}
+
+.boton {
+  background-color: #dc76a0;
+  padding: 18px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+}
+
+#servicios {
+  background-color: #847fd926;
+  padding: 80px 0px;
+  margin: 40px 0px;
+}
+
+.titulo, .subtitulo, .frase {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+.subtitulo {
+  font-size: 20px !important;
+}
+
+.frase {
+  color: #847fd8;
+}
+
+.cardServicios {
+  color: #000000;
+  background-color: white;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px #e9ecef;
+}
+
+.caja {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+#datos {
+  padding: 40px 0px;
+  margin: 80px 0px;
+}
+
+#footer {
+  background-color: #847fd8;
+  padding: 80px 0px;
+  margin-top: 40px;
+}
+
+#footer .subtitulo {
+  color: white;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+
+#footer .parrafoTexto {
+  color: white;
+  font-size: 14px;
+}
+
+#footer .newsletter input[type="submit"] {
+  background: #847fd8;
+  border: solid white 1.5px;
+  border-radius: 0px 6px 6px 0px;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  height: 44px;
+  font-size: 14px;
+}
+
+#footer .newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 50%;
+  height: 44px;
+  border-radius: 6px 0px 0px 6px;
+  font-size: 14px;
+}
+
+#ofrecemos {
+  margin-top: 80px;
+}
+
+#ofrecemos .subtitulo {
+  font-size: 24px;
+}
+
+#ofrecemos .bannerDiseno {
+  background-color: #dc76a0;
+}
+
+#ofrecemos .bannerMkt {
+  background-color: #f7bb65;
+}
+
+#ofrecemos .bannerBranding {
+  background-color: #88c9e7;
+}
+
+.marcas {
+  background-color: #edecf9;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  padding-bottom: 90px;
+  padding-top: 80px;
+}
+
+#clientes {
+  margin-top: 80px;
+}
+
+#inspiracional {
+  min-height: 250px;
+  margin-top: 80px;
+  padding-top: 90px;
+}
+
+.carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: #847fd8;
+  border: 1px solid #847fd8;
+}
+
+.boton:hover, #contacto .contactForm button[type="submit"]:hover {
+  background-color: #cd6e95;
+}
+
+.servicios-text {
+  padding: 140px;
+}
+
+#contacto {
+  margin: 120px 300px 120px 300px;
+  padding: 40px;
+}
+
+#contacto .contactForm button[type="submit"] {
+  background-color: #dc76a0;
+  padding: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+}
+
+.cardServicios:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px #e9ecef;
+  transition: 0.3s;
+}
+
+.cardTrabajos:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.cardTrabajos:hover .trabajos-info {
+  opacity: 1;
+}
+
+.cardTrabajos:hover img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.subtitulo .parrafoTexto .trabajos-info {
+  color: #ffffff;
+}
+
+.trabajos-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0;
+  transition: 0.2s linear;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  display: flex;
+}
+
+.servicios-img img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.trabajos-info .frase {
+  color: #000000;
+  font-size: 26px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+  color: #847fd8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.servicios-img {
+  justify-content: center;
+  display: flex;
+}
+
+#portada {
+  background-image: url("../img/equipo2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 450px;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 0px;
+  }
+  .icono img {
+    width: 100px;
+  }
+  .desktop {
+    display: none;
+  }
+  #principal .principal-text {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 32px !important;
+    line-height: 40px !important;
+  }
+  .parrafoTexto {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .titulo, .subtitulo, .frase {
+    font-size: 28px;
+  }
+  .subtitulo {
+    font-size: 20px;
+  }
+  #contacto {
+    padding: 0 !important;
+    margin: 100px 0 0 0 !important;
+  }
+  .servicios-text {
+    padding: 50px !important;
+  }
+  .servicios-img {
+    max-height: 350px;
+  }
+  .servicios-img img {
+    max-width: 300px;
+  }
+  #portada {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+  .icono img {
+    width: 150px;
+  }
+}
